@@ -1,0 +1,34 @@
+Windows regression run, 2026-11-12
+test_area_and_aspect_rejections (test_vision.ColorTests.test_area_and_aspect_rejections) ... ok
+test_bad_config_rejected (test_vision.ColorTests.test_bad_config_rejected) ... ok
+test_center_tolerance_boundaries (test_vision.ColorTests.test_center_tolerance_boundaries) ... ok
+test_completion_is_manual_and_input_is_unchanged (test_vision.ColorTests.test_completion_is_manual_and_input_is_unchanged) ... ok
+test_fill_rejection (test_vision.ColorTests.test_fill_rejection) ... ok
+test_largest_valid_candidate_wins (test_vision.ColorTests.test_largest_valid_candidate_wins) ... ok
+test_loss_clears_previous_coordinates (test_vision.ColorTests.test_loss_clears_previous_coordinates) ... ok
+test_order_validation (test_vision.ColorTests.test_order_validation) ... ok
+test_saved_blue_and_yellow_threshold_changes (test_vision.ColorTests.test_saved_blue_and_yellow_threshold_changes) ... ok
+test_three_colors_and_both_red_bands (test_vision.ColorTests.test_three_colors_and_both_red_bands) ... ok
+test_apriltag_capture_loop_saves_lock_and_logs_loss (test_vision.IntegrationTests.test_apriltag_capture_loop_saves_lock_and_logs_loss) ... ok
+test_camera_open_failure_releases_resources (test_vision.IntegrationTests.test_camera_open_failure_releases_resources) ... ok
+test_camera_read_failure_returns_error_without_waiting (test_vision.IntegrationTests.test_camera_read_failure_returns_error_without_waiting) ... ok
+test_cli_headless_and_clear_input_errors (test_vision.IntegrationTests.test_cli_headless_and_clear_input_errors) ... ok
+test_color_keys_and_settings_with_mock_camera_gui (test_vision.IntegrationTests.test_color_keys_and_settings_with_mock_camera_gui) ... ok
+test_hsv_band_switch_preserves_edits (test_vision.IntegrationTests.test_hsv_band_switch_preserves_edits) ... ok
+test_import_has_no_camera_or_gui_side_effect (test_vision.IntegrationTests.test_import_has_no_camera_or_gui_side_effect) ... ok
+test_unicode_image_roundtrip_and_decode_error (test_vision.IntegrationTests.test_unicode_image_roundtrip_and_decode_error) ... ok
+test_all_configured_families_decode_generated_marker (test_vision.TagTests.test_all_configured_families_decode_generated_marker) ... ok
+test_blank_image (test_vision.TagTests.test_blank_image) ... ok
+test_image_third_boundaries (test_vision.TagTests.test_image_third_boundaries) ... ok
+test_interruption_resets_unconfirmed_count (test_vision.TagTests.test_interruption_resets_unconfirmed_count) ... ok
+test_invalid_mode (test_vision.TagTests.test_invalid_mode) ... ok
+test_lost_waiting_and_duplicate_ids_clear_location (test_vision.TagTests.test_lost_waiting_and_duplicate_ids_clear_location) ... ok
+test_min_max_lock_and_reset (test_vision.TagTests.test_min_max_lock_and_reset) ... ok
+test_sequential_scanning_and_fourth_id (test_vision.TagTests.test_sequential_scanning_and_fourth_id) ... ok
+test_three_generated_markers (test_vision.TagTests.test_three_generated_markers) ... ok
+test_unsorted_ids_keep_correct_corners (test_vision.TagTests.test_unsorted_ids_keep_correct_corners) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 1.092s
+
+OK
